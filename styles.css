@@ -1,0 +1,8 @@
+/* Legal o simbolo de comentario muda quando vc ta dentro do CSS */
+/* Voce pode criar varias classes para um mesmo elemento, usando apenas um espaco como <div class="alert-text severe-alert", para se referir a uma classe usa-se .alert-text */
+/* O seletor id funciona como o class, mas serve para um unico elementro. Para referir-se a um id usa-se #id */
+/* Quando dois ou mais elementos possuem caracteristicas em comum, podemos utilizar o seletor com uma virgula .read, .unread {} */
+/* Se eu fizer por exemplo .read .unread, sem a virgula, entra a regra do combinador descendente, que ele so aplicara as caracteristicas para a classe unread, se ela estiver dentro de um elemento superior da classe read */
+* {
+    color: purple; 
+}
