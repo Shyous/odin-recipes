@@ -3,6 +3,50 @@
 /* O seletor id funciona como o class, mas serve para um unico elementro. Para referir-se a um id usa-se #id */
 /* Quando dois ou mais elementos possuem caracteristicas em comum, podemos utilizar o seletor com uma virgula .read, .unread {} */
 /* Se eu fizer por exemplo .read .unread, sem a virgula, entra a regra do combinador descendente, que ele so aplicara as caracteristicas para a classe unread, se ela estiver dentro de um elemento superior da classe read */
-* {
-    color: purple; 
+
+h1,h2,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 3px dotted palevioletred;
+    text-align: center;
+    color: rgb(49, 146, 155);
+    border-radius: 50px 0 50px 0;
+}
+
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color:palevioletred;
+    border: 2px solid rgb(49, 146, 155);
+    background-color: rgb(49, 146, 155, 0.2);
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+ul,ol{
+    border: 2px solid rgb(49, 146, 155);
+    background-color: rgb(49, 146, 155, 0.2);
+    
+}
+
+
+
+a,li{
+    text-decoration: solid;
+    color: palevioletred;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+}
+img{
+    border: 5px solid palevioletred;
+    background-color:  rgb(49, 146, 155, 0.2);
+    padding: auto;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
 }
